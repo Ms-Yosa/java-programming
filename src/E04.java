@@ -59,8 +59,8 @@ public class E04 {
 
         double area = (base * height) / 2;
         System.out.println("The area is " + area);
-
+ */
     }
 
- */
+
 }
