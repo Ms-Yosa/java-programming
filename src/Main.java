@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+
     }
 
     /*
@@ -31,6 +32,32 @@ public class Main {
      . declaration. w/ null value : ClothingItem item;
                     initializing value: ClothingItem item = new ClothingItem();
                     inferred typing: var item = new ClothingItem();
+
+      >>> Conversion
+      . widening: expand memory ( short => int)
+                    short sh = 100;
+                    int i = sh;
+                    long longValue = i;
+       . lossy conversion : might lose some data during conversion (long => short)
+                            short shortValue = longValue;
+                         : must use special syntax  // can still lose data
+                           short shortValue = (short) longValue;
+
+         >>> Unicode '\u'
+         >>>> Operators
+         .Equality
+         .assignment
+         .mathematical
+         . Logical ( &&, ||, )
+         .Ternary (?=) : if-then
+                        var message = (i ==1) // boolean test
+                        ? "There is 1"  // if true
+                        : " There are " + i; // if false
+                        System.out.println(message)
+
+
+
+
 
      */
 
