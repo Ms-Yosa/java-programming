@@ -43,7 +43,7 @@ public class Main {
                          : must use special syntax  // can still lose data
                            short shortValue = (short) longValue;
 
-         >>> Unicode '\u'
+         >>> Unicode
          >>>> Operators
          .Equality
          .assignment
