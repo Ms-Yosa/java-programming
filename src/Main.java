@@ -26,5 +26,13 @@ public class Main {
      >>>Wrapper Class
      . Starts with an Uppercase (Integer, Character, Short ...)
 
+
+     >>> Object Variables
+     . declaration. w/ null value : ClothingItem item;
+                    initializing value: ClothingItem item = new ClothingItem();
+                    inferred typing: var item = new ClothingItem();
+
      */
+
+
 }
