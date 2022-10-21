@@ -1,6 +1,6 @@
 package model2;
 
-public class ClothingItem2C {
+public class ClothingItem2B {
     // declaring constant
     public static final String SHIRT = "shirt";
     public static final String HAT = "hat";
@@ -9,7 +9,7 @@ public class ClothingItem2C {
     private String type;
 
     //    private String size;
-    private ClothingSizeC size; //enum type
+    private ClothingSizeB size; //enum type
     private double price;
     private int quantity;
 
@@ -23,7 +23,7 @@ public class ClothingItem2C {
 //    }
 
     //    Enum type
-    public ClothingItem2C(String type, ClothingSizeC size, double price, int quantity){
+    public ClothingItem2B(String type, ClothingSizeB size, double price, int quantity){
         this.type = type;
         this.size = size;
         this.price=price;
@@ -50,11 +50,11 @@ public class ClothingItem2C {
 //    }
 
     //  Enum type
-    public ClothingSizeC getSize() {
+    public ClothingSizeB getSize() {
         return size;
     }
 
-    public void setSize(ClothingSizeC size) {
+    public void setSize(ClothingSizeB size) {
         this.size = size;
     }
 
