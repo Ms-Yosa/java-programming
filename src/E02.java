@@ -27,7 +27,7 @@ public class E02 {
         System.out.println("Number " + localeFormatter.format(doubleValue)); // basically, puts back commas
 
         // specific locale formatting
-        var localeB = new Locale("ph", "PH"); // formatting based on Pinas
+        var localeB = new Locale("ph", "PH"); // currency formatting based sa Pinas
         var localeFormatterB = NumberFormat.getNumberInstance(localeB);
         System.out.println("Number " + localeFormatterB.format(doubleValue));
 
