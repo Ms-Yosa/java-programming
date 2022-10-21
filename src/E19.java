@@ -5,11 +5,15 @@ import java.text.NumberFormat;
 public class E19 {
     public static void main(String[] args){
 
-        var item = new ClothingItem();
-        item.setType("Shirt");
-        item.setPrice(19.99);
-        item.setSize("Small");
-        item.setQuantity(2);
+//  setter-getter format
+//        var item = new ClothingItem();
+//        item.setType("Shirt");
+//        item.setPrice(19.99);
+//        item.setSize("Small");
+//        item.setQuantity(2);
+
+//Constructor format
+        var item = new ClothingItem("Shirt", "Small", 19.99, 3);
 
         var totalPrice = item.getPrice() * item.getQuantity();
         var formatter = NumberFormat.getCurrencyInstance();

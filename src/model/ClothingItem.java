@@ -40,4 +40,14 @@ public class ClothingItem {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
+    //constructor
+
+    public ClothingItem(String type, String size, double price, int quantity){
+        this.type = type;
+        this.size = size;
+        this.price=price;
+        this.quantity=quantity;
+    }
+
 }
