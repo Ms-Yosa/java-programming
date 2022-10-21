@@ -1,9 +1,9 @@
 package model2;
 
-public class HatC extends ClothingItem2C {
+public class HatB extends ClothingItem2B {
 
-    public HatC(ClothingSizeC size, double price, int quantity){
-        super(ClothingItem2C.HAT, size, price, quantity);
+    public HatB(ClothingSizeB size, double price, int quantity){
+        super(ClothingItem2B.HAT, size, price, quantity);
     }
 
 }
