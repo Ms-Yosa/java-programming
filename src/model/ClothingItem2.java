@@ -7,13 +7,23 @@ public class ClothingItem2 {
 
 
     private String type;
-    private String size;
+
+//    private String size;
+    private ClothingSize size; //enum type
     private double price;
     private int quantity;
 
     //constructor
 
-    public ClothingItem2(String type, String size, double price, int quantity){
+//    public ClothingItem2(String type, String size, double price, int quantity){
+//        this.type = type;
+//        this.size = size;
+//        this.price=price;
+//        this.quantity=quantity;
+//    }
+
+//    Enum type
+   public ClothingItem2(String type, ClothingSize size, double price, int quantity){
         this.type = type;
         this.size = size;
         this.price=price;
@@ -31,11 +41,20 @@ public class ClothingItem2 {
         this.type = type;
     }
 
-    public String getSize() {
+//    public ClothingSize getSize() {
+//        return size;
+//    }
+//
+//    public void setSize(ClothingSize size) {
+//        this.size = size;
+//    }
+
+//  Enum type
+    public ClothingSize getSize() {
         return size;
     }
 
-    public void setSize(String size) {
+    public void setSize(ClothingSize size) {
         this.size = size;
     }
 
