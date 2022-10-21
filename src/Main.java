@@ -55,7 +55,39 @@ public class Main {
                         : " There are " + i; // if false
                         System.out.println(message)
 
+         >>> Inheritance
+         . relationship b/w classes
+                . superclass/subclass (used by java)
+                    * keyword extends - creates inheritance relationship
+                    *superclass
+                            *public class ClothingItem{
+                                private String size;
+                                public String getType(){
+                                    return "Clothing Item";
+                                }
+                                public String getSize(){
+                                    return size;
+                                }
+                                public void setSize(String size){
+                                    this.size = size;
+                                }
+                            }
 
+                    . subclasses extend superclasses
+                            * public class Hat extends ClothingItem{
+                                public String getType(){
+                                return "Hat";
+                                }
+                            }
+                . parent/child
+                . base/derived
+                . superclass/subclass
+         . java only supports single inheritance
+         . each class can extend only one direct superclass
+         . Polymorphism
+                . address an object as either super- or subtype
+                * ClothingItem item = new Hat();
+                   System.out.println("This is a " + item.getType());
 
 
 
