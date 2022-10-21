@@ -1,20 +1,20 @@
 
 import model2.ClothingSizeB;
 import model2.ClothingItem2B;
-import model2.HatB;
-import model2.ShirtB;
+import model2.Hat;
+import model2.Shirt;
 
 import java.text.NumberFormat;
 
 public class E21 {
     public static void main(String[] args){
-        var shirt = new ShirtB(
+        var shirt = new Shirt(
                 ClothingSizeB.M,
                 19.99,
                 3);
         displayItemDetails(shirt);
 
-        var hat = new HatB(
+        var hat = new Hat(
                 ClothingSizeB.M,
                 19.99,
                 3);
