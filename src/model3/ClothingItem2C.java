@@ -1,8 +1,8 @@
-package model2;
+package model3;
 
-import model2.ClothingSizeB;
+import model3.ClothingSizeC;
 
-public class ClothingItem2B {
+public class ClothingItem2C {
     // declaring constant
     public static final String SHIRT = "shirt";
     public static final String HAT = "hat";
@@ -11,13 +11,13 @@ public class ClothingItem2B {
     private String type;
 
     //    private String size;
-    private ClothingSizeB size; //enum type
+    private ClothingSizeC size; //enum type
     private double price;
     private int quantity;
 
     //constructor
 
-//    public ClothingItem2(String type, String size, double price, int quantity){
+//    public ClothingItem2C(String type, String size, double price, int quantity){
 //        this.type = type;
 //        this.size = size;
 //        this.price=price;
@@ -25,7 +25,7 @@ public class ClothingItem2B {
 //    }
 
     //    Enum type
-    public ClothingItem2B(String type, ClothingSizeB size, double price, int quantity){
+    public ClothingItem2C(String type, ClothingSizeC size, double price, int quantity){
         this.type = type;
         this.size = size;
         this.price=price;
@@ -52,11 +52,11 @@ public class ClothingItem2B {
 //    }
 
     //  Enum type
-    public ClothingSizeB getSize() {
+    public ClothingSizeC getSize() {
         return size;
     }
 
-    public void setSize(ClothingSizeB size) {
+    public void setSize(ClothingSizeC size) {
         this.size = size;
     }
 

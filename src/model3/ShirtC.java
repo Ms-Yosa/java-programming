@@ -1,9 +1,11 @@
-package model2;
+package model3;
 
-public class Shirt extends ClothingItem2B{
 
-    public Shirt(ClothingSizeB size, double price, int quantity){
-        super(ClothingItem2B.SHIRT, size, price, quantity);
+
+public class ShirtC extends ClothingItem2C {
+
+    public ShirtC(ClothingSizeC size, double price, int quantity){
+        super(ClothingItem2C.SHIRT, size, price, quantity);
     }
 
 }

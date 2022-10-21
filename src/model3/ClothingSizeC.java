@@ -1,10 +1,10 @@
-package model2;
+package model3;
 
-public enum ClothingSizeB {
+public enum ClothingSizeC {
     S("Small"), M("Medium"), L("Large");
 
     private String description;
-    ClothingSizeB(String description){
+    ClothingSizeC(String description){
         this.description = description;
     }
 

@@ -1,6 +1,6 @@
-package model2;
+package model3;
 
-public class ClothingItemB {
+public class ClothingItemC {
     private String type;
     private String size;
     private double price;
@@ -43,7 +43,7 @@ public class ClothingItemB {
 
     //constructor
 
-    public ClothingItemB(String type, String size, double price, int quantity){
+    public ClothingItemC(String type, String size, double price, int quantity){
         this.type = type;
         this.size = size;
         this.price=price;
