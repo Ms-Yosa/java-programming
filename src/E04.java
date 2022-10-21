@@ -15,6 +15,9 @@ public class E04 {
         String s4 = new String("Hello!");
         String s5 = new String("HELLO!");
 
+        var chars = s3.toCharArray();
+        System.out.println(chars);
+
         // don't match
         if(s3==s4){
             System.out.println("They match!");
@@ -35,6 +38,8 @@ public class E04 {
         }else{
             System.out.println("They don't match");
         }
+
+
 
 
 
