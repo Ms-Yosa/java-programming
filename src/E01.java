@@ -1,3 +1,5 @@
+import Classes.MyClass;
+
 public class E01 {
     public static void main(String[] args){
 
@@ -24,7 +26,13 @@ public class E01 {
 //       if (myName== "Todd"){
 //           System.out.println("true");
 //
-        }
+//    }
+
+//        Classes review
+
+        MyClass mc = new MyClass("Hello World");
+
+
 
     }
 
