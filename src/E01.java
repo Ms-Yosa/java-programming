@@ -1,8 +1,12 @@
 import Classes.MyClass;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.FileSystems;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 import java.util.Scanner;
 
 public class E01 {
@@ -44,7 +48,15 @@ public class E01 {
 //        System.out.println("Your name is: " + name.toUpperCase());
 
 //        read data from a file
-       Path paths = Paths.get("file.txt");
+//        Path file = FileSystems.getDefault().getPath("", "C:\\Users\\Jian\\Desktop\\linkedinlearning\\LearningJava\\Learning Java\\src\\file.txt");
+//
+//
+//       try{
+//           List<String> lines = Files.readAllLines(file);
+//           lines.stream().forEach(System.out::println);
+//       }catch(IOException e){
+//           e.printStackTrace();
+//       }
 
 
 
