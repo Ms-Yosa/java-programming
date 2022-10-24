@@ -7,4 +7,12 @@ public class MyClass {
     public MyClass(String data){
         this.data = data;
     }
+
+    public String getType(){
+        return data;
+    }
+
+    public void setType(String data){
+        this.data = data;
+    }
 }

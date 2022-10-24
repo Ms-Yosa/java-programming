@@ -1,5 +1,10 @@
 import Classes.MyClass;
 
+import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Scanner;
+
 public class E01 {
     public static void main(String[] args){
 
@@ -28,9 +33,18 @@ public class E01 {
 //
 //    }
 
-//        Classes review
+//        Classes review (used getter/setter)
+//        MyClass mc = new MyClass("HelloWorld");
+//        System.out.println(mc.getType());
 
-        MyClass mc = new MyClass("Hello World");
+//        input and output review
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter your name: ");
+//        String name = sc.next();
+//        System.out.println("Your name is: " + name.toUpperCase());
+
+//        read data from a file
+       Path paths = Paths.get("file.txt");
 
 
 
