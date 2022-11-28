@@ -15,8 +15,11 @@ public class E16 {
         // n = period * 12
         // Math.pow()
 
-        double monthlyInterestRate = annualInterest / 100 / 12;
-        double numOfPayments = years*12;
+        byte MONTHS_IN_YEAR = 12;
+        byte PERCENT = 100;
+
+        double monthlyInterestRate = annualInterest / PERCENT / MONTHS_IN_YEAR;
+        double numOfPayments = years*MONTHS_IN_YEAR;
         double expression = Math.pow((1+monthlyInterestRate), numOfPayments);
         double numerator = monthlyInterestRate * expression;
         double denominator = expression - 1;
