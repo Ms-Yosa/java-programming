@@ -3,6 +3,7 @@ public class E02 {
 
         // by default java see int and double so suffix is needed for declaring long and float variables
         // orange words = reserved keywords
+        // primitive types = byte, short, int, long, float, double, char, boolean
 
         byte age = 30;
         long viewsCount = 3_123_456_789L;
